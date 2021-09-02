@@ -9,5 +9,5 @@ services:
     volumes:
       - yourfolder? :/var/lib/rabbitmq/
     environment:
-      - RABBITMQ_DEFAULT_USER: a name
-      - RABBITMQ_DEFAULT_PASS: a pass
+      - RABBITMQ_DEFAULT_USER=a name
+      - RABBITMQ_DEFAULT_PASS=a pass
